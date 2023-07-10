@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(141, 139, 139);
+    padding: 20px 0 30px 0;
+}
+input,
+.btn {
+    width: 100%;
+    padding: 12px;
+    margin: 5px 0;
+    display: inline-block;
+    border: solid 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-decoration: none;
+    opacity: 0.85;
+
+}
+input:hover,
+.btn:hover {
+    opacity: 0.8;
+}
+.fb {
+    background-color: #3b5998;
+    color: white;
+}
+.google {
+    background-color: #dd4b39;
+    color: white;
+}
+input[type=submit]:hover {
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+}
+;
+
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #403f3f;
+  border-radius: 0px 0px 4px 4px;
+}
+
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+
+form {
+    width: 50%;
+}
+legend {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid green;
+    background-color: tomato;
+    color: white;
+}
+label {
+    display: inline-block;
+
+    clear: left;
+    width: 90px;
+    margin: 5px;
+    text-align: left;
+}
+input[type="text"] {
+    width: 250px;
+    margin: 5px 0px;
+}
+.gfg {
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: rgb(141, 139, 139);
+}
+#submit {
+    padding: 2px 11px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(30, 34, 34);
+    border: solid 2px;
+    border-radius: 5px;
+    box-shadow: 6px 5px #999;
+}
+#submit:hover {
+    background-color: grey;
+}
+#submit:active {
+    background-color: #737674;
+    box-shadow: 5px 0px #898888;
+    transform: translateY(3px);
+}
+.col {
+    text-align: center;
+    
+}
+.col:hover {
+    background-color: rgb(98, 100, 100)
+}

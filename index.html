@@ -1,65 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Legend Tag</title>
     <style>
-        form {
-            width: 50%;
-        }
-        legend {
-            display: block;
-            padding-left: 10px;
-            padding-right: 10px;
-            border: 3px solid green;
-            background-color: tomato;
-            color: white;
-        }
-        label {
-            display: inline-block;
-        
-            clear: left;
-            width: 90px;
-            margin: 5px;
-            text-align: left;
-        }
-        input[type="text"] {
-            width: 250px;
-            margin: 5px 0px;
-        }
-        .gfg {
-            font-size: 40px;
-            color: green;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
-    <div class="header">Hacking 10101</div>
-    <h2>HTML Legend Tag</h2>
+    <h1>User Submit Form</h1>
+    <hr>
     <form>
         <fieldset>
             <legend>STUDENT:</legend>
             <hr>
-            <label>Name:</label>
+            <br>
+            <label>Name:</label><br>
             <input type="text" name="name"/><br>
-            <br>
-            <label>Email:</label>
+            <label>Email:</label><br>
             <input type="text" name="email"/><br>
-            <br>
             <label>Date of Birth:</label>
             <input type="date" name="dob"/><br>
-            <br>
-            <label>Address:</label>
+            <label>Address:</label><br>
             <input type="text" name="address"/><br>
-            <br>
-            <label>Enroll No:</label>
+            <label>Enroll No:</label><br>
             <input type="text" name="enroll"/><br>
             <br>
             <br>
             <input type="submit" id="submit" value="Submit"/>
+            <br>
+            <br>
+            <hr>     
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <h2 style="text-align:center">Login with Social Media or Manually</h2>
+            </div>
+            <div class="vl">
+                <span class="vl-innertext">or</span>
+              </div>
+        
+              <div class="col">
+                <a href="#" class="fb btn">
+                  <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+                 </a><br>
+                 <br>
+                 <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                </i> Login with Google+
+              </a>
+              <div class="col">
+                <div class="hide-md-lg">
+              </div>
+              </div>
+              <br>
+              <br>
+              <div class="bottom-container">
+    <div class="col">
+      <a href="#" style="color:white" class="btn">Forgot password?</a>
+    </div>
+  </div>
+</div>
+            </form>
         </fieldset>
-    </form>
+            
+        
+    <br>
+    <br>
+    <hr>
+    <details>
+        <summary>CREATED BY:</summary>
+        <p>A awesome project created by none other than <strong>Catfishfishcat</strong></p>
+    </details>
+    <hr>
 </body>
 </html>
