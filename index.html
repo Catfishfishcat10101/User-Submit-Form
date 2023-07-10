@@ -2,50 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GFG User-Submit Form</title>
+    <title>HTML Legend Tag</title>
+    <style>
+        form {
+            width: 50%;
+        }
+        legend {
+            display: block;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 3px solid green;
+            background-color: tomato;
+            color: white;
+        }
+        label {
+            display: inline-block;
+        
+            clear: left;
+            width: 90px;
+            margin: 5px;
+            text-align: left;
+        }
+        input[type="text"] {
+            width: 250px;
+            margin: 5px 0px;
+        }
+        .gfg {
+            font-size: 40px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+    <div class="header">Hacking 10101</div>
+    <h2>HTML Legend Tag</h2>
     <form>
         <fieldset>
-            <legend>Personal Details</legend>
-    <p>
-    <label>
-        <br/>
-        <select name="salutation">
-            <option>--None--</option>
-            <option>Mr.</option>
-            <option>Mrs.</option>
-            <option>Ms.</option>
-            <option>Dr.</option>
-            <option>Prof.</option>
-        </select>
-    </label>
-    </p>
-    <p>
-    <label>First Name: <input name="firstName"/></label>
-    <label>Last Name: <input name="lastName"/></label>
-    </p>
-    <p>
-    Gender:
-    <label><input type="radio" name="gender" value="male"/>Male</label>
-    <label><input type="radio" name="gender" value="female"/>Female</label>
-    <label>Email:<input type="email" name="email"/></label>
-    </p>           
-    <p>
-    <label>Date of Birth: <input type="date" name="dob"/></label>
-    </p>
-    <p>
-    <label>
-        Address :
-        <br/>
-        <textarea name="address" cols="30" rows="10"></textarea>
-    </label>
-    </p>
-    <p>
-        <button type="submit">Submit</button>
-    </p>
+            <legend>STUDENT:</legend>
+            <hr>
+            <label>Name:</label>
+            <input type="text" name="name"/><br>
+            <br>
+            <label>Email:</label>
+            <input type="text" name="email"/><br>
+            <br>
+            <label>Date of Birth:</label>
+            <input type="date" name="dob"/><br>
+            <br>
+            <label>Address:</label>
+            <input type="text" name="address"/><br>
+            <br>
+            <label>Enroll No:</label>
+            <input type="text" name="enroll"/><br>
+            <br>
+            <br>
+            <input type="submit" id="submit" value="Submit"/>
         </fieldset>
     </form>
 </body>
